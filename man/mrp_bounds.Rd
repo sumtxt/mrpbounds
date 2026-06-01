@@ -52,7 +52,7 @@ A list with two elements:
 }
 }
 \description{
-This function computes bounds for multilevel regression and poststratification
+This function computes bounds for multilevel regression with poststratification
 (MRP) estimates by finding the minimum and maximum possible values of a
 target quantity subject to constraints from marginal and joint probability
 tables.

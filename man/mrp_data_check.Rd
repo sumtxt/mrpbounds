@@ -32,7 +32,7 @@ A data frame with the following columns:
 }
 \description{
 Validates the consistency between a model formula, survey data, and tabulation
-tables used in multilevel regression and poststratification (MRP) analysis.
+tables used in multilevel regression with poststratification (MRP) analysis.
 This function examines predictor variables to ensure data types match and 
 identifies missing or additional categories across datasets.
 }
