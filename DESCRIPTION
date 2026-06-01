@@ -1,0 +1,22 @@
+Package: mrpbounds
+Type: Package
+Title: Bounds for Multilevel Regression and Poststratification (MRP) Estimates
+Version: 0.0.1
+Authors@R: c(person("Moritz", "Marbach", role = c("aut", "cre"), email="m.marbach@ucl.ac.uk", comment = c(ORCID = "0000-0002-7101-2821")))
+Description: Computes sharp bounds on multilevel regression and poststratification
+    (MRP) estimates when the joint distribution of poststratification variables is
+    only partially known. Given marginal or joint probability tables, the package
+    uses linear programming to find the minimum and maximum possible values of MRP
+    quantities, cell probabilities, and mean squared error.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    lpSolve,
+    pracma,
+    stringr
+Suggests:
+    testthat (>= 3.0.0),
+    mipfp
+Config/testthat/edition: 3
